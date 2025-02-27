@@ -1,0 +1,332 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Buttons Collection</title>
+</head>
+
+<style>
+    body {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    img {
+        height: 250px;
+
+    }
+
+    .youtube-btn {
+        background-color: rgb(196, 32, 32);
+        color: white;
+        border-width: 0px;
+        height: 36px;
+        width: 90px;
+        border-radius: 2px;
+        cursor: pointer;
+        transition: background-color 2s;
+    }
+
+    .youtube-btn:hover {
+        /* opacity: 0.8; (for elements) */
+        background-color: rgba(196, 32, 32, 0.7);
+    }
+
+    .youtube-btn:active {
+        opacity: 0.5;
+    }
+
+    .youtube-btn:focus {
+        background-color: green;
+    }
+
+
+    .padding-yt-btn {
+        background-color: rgb(196, 32, 32);
+        color: white;
+        border-width: 0px;
+        /* height: 36px;
+        width: 90px; */
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 12px;
+        padding-right: 12px;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+
+
+
+
+    .join-btn {
+        height: 36px;
+        width: 70px;
+        color: rgb(50, 126, 197);
+        background-color: white;
+        border-color: rgb(50, 126, 197);
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+
+    .tweet-btn {
+        background-color: rgb(48, 131, 225);
+        color: white;
+        border-width: 0;
+        font-weight: bold;
+        font-size: 0.9em;
+        height: 36px;
+        width: 70px;
+        border-radius: 16px;
+        cursor: pointer;
+    }
+
+    .request-btn {
+        background-color: black;
+        color: white;
+        height: 36px;
+        width: 90px;
+        font-size: 12px;
+        border-width: 0px;
+        cursor: pointer;
+
+        transition: opacity 0.5s;
+    }
+
+    .request-btn:hover {
+        opacity: 0.8;
+    }
+
+    .amazon-btn {
+        background-color: rgb(255, 216, 20);
+        height: 32px;
+        width: 180px;
+        border-width: 0px;
+        border-radius: 16px;
+        cursor: pointer;
+    }
+
+    .buy-btn {
+        background-color: rgb(255, 164, 28);
+        height: 32px;
+        width: 90px;
+        border-width: 0px;
+        border-radius: 16px;
+        cursor: pointer;
+    }
+
+    .signup-btn {
+        background-color: green;
+        height: 36px;
+        width: 80px;
+        border-width: 0px;
+        color: white;
+        border-radius: 4px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .bootstrap-btn {
+        background-color: #7354AD;
+        color: white;
+        height: 36px;
+        width: 90px;
+        border-width: 0px;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+
+    .bootstrap-download-btn {
+        height: 36px;
+        width: 90px;
+        color: rgb(108, 117, 125);
+        background-color: white;
+        border-color: rgb(108, 117, 125);
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 2px;
+        cursor: pointer;
+
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    .bootstrap-download-btn:hover {
+        background-color: #6C747B;
+        color: white;
+    }
+
+    .linkdin-btn {
+        background-color: rgb(10, 102, 194);
+        color: white;
+        height: 32px;
+        width: 220px;
+        border-width: 0px;
+        border-radius: 16px;
+        cursor: pointer;
+    }
+
+    .save-btn {
+        height: 36px;
+        width: 70px;
+        color: rgb(50, 126, 197);
+        background-color: white;
+        border-color: rgb(50, 126, 197);
+        border-style: solid;
+        border-width: 1.5px;
+        border-radius: 16px;
+        font-weight: bold;
+        cursor: pointer;
+
+        transition: background-color 0.5s;
+    }
+
+    .save-btn:hover {
+        /* opacity: 0.1; brightens the whole element, so dont use this */
+        background-color: rgba(50, 126, 197, 0.1);
+    }
+</style>
+
+<body>
+    <h1>Default Border Settings</h1>
+    <img src="default-btn-box-model.png" alt="">
+    <br>
+    <button>Button</button>
+
+
+    <h2>Examples of Buttons</h2>
+
+    <!-- YouTube Button -->
+    <button class="youtube-btn">
+        Subscribe
+    </button>
+
+    <!-- Join Button -->
+    <button class="join-btn">
+        JOIN
+    </button>
+
+    <!-- Tweet button -->
+    <button class="tweet-btn">
+        Tweet
+    </button>
+
+    <br> <br>
+
+    <!-- Uber Request Button -->
+    <button class="request-btn">
+        Request Now
+    </button>
+
+    <!-- Amazon "Add to cart" button -->
+    <button class="amazon-btn">
+        Add to Cart
+    </button>
+    <button class="buy-btn">Buy Now</button>
+
+    <br><br>
+
+    <!-- Sign Up Button -->
+    <button class="signup-btn">
+        Sign Up
+    </button>
+
+    <br><br>
+
+    <!-- Bootstrap Buttons -->
+    <button class="bootstrap-btn">Get Started</button>
+    <button class="bootstrap-download-btn">
+        Download
+    </button>
+
+    <br><br>
+
+    <!-- Linkden Buttons -->
+    <button class="linkdin-btn">
+        Apply on Company Website
+    </button>
+    <button class="save-btn">
+        Save
+    </button>
+
+    <!-- Challenges area -->
+
+    <h2>Challenges</h2>
+
+    <style>
+        .challenge {
+            background-color: green;
+            color: white;
+            border-color: green;
+            border-style: solid;
+            border-radius: 2px;
+            cursor: pointer;
+        }
+
+        .stretch-btn{
+            padding: 8px 16px;
+
+            transition: padding 1s;
+        }
+        .stretch-btn:hover {
+            padding: 16px 32px;
+        }
+
+        .shadow-btn{
+            padding: 8px 16px;
+
+            box-shadow: 4px 4px 2px rgba(0,0,0, 0.2);
+            transition: box-shadow 1s;
+        }
+        .shadow-btn:hover{
+            margin-left: 2px;
+            margin-top: 2px;
+            box-shadow: none;
+        }
+
+        .padding-btns{
+         padding: 8px 12px;
+         transition: padding 0.4s;
+        }
+        .padding-btns:hover{
+            padding-left: 18px;
+            padding-right: 18px;
+        }
+    </style>
+
+    <button class="stretch-btn challenge">Stretch</button>
+    <br><br>
+    <button class="shadow-btn challenge">Shadow</button>
+    <br><br>
+    <button class="padding-btns challenge">One</button>
+    <button class="padding-btns challenge">Two</button>
+    <button class="padding-btns challenge">Three</button>
+
+    <h2>
+        Points:
+    </h2>
+    <p>1. Padding are better alternative for buttons, coz adding text to buttons that has heights and widths overflows,
+        while if only padding is set for the button, the content of element doesn't overflow, but rather adjusts itself.
+    </p>
+    <p>Example:</p>
+    <!-- YouTube Button -->
+    <button class="youtube-btn" style="vertical-align: ;">
+        Subscribe Here
+    </button>
+    <!-- YouTube Button -->
+    <button class="padding-yt-btn">
+        Subscribe Here NOW how are you doing!
+    </button>
+
+    <p>2. The alignment of buttons (elements) is based on text, so that's why they appear weird rn. </p>
+    <p>3. Add transitions to the "base css style element", not psuedo classes. (fuck around to find out, if u forget it)
+    </p>
+    <!-- <div> -->
+        <img src="/my-code/default-btn-box-model.png" style="height: 150px;">
+        <p style="vertical-align:middle; display: inline;">4. Hello World, I'm Top.</p>
+        <p class="">hellow world</p>
+    <!-- </div> -->
+</body>
+
+</html>
