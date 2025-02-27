@@ -320,13 +320,20 @@
     </button>
 
     <p>2. The alignment of buttons (elements) is based on text, so that's why they appear weird rn. </p>
-    <p>3. Add transitions to the "base css style element", not psuedo classes. (fuck around to find out, if u forget it)
+    <p>3. Add transitions to the "base css style element", not psuedo classes.
     </p>
     <!-- <div> -->
-        <img src="/my-code/default-btn-box-model.png" style="height: 150px;">
+        <img src="default-btn-box-model.png" style="height: 150px;">
         <p style="vertical-align:middle; display: inline;">4. Hello World, I'm Top.</p>
         <p class="">hellow world</p>
     <!-- </div> -->
+
+<div>
+<h1>
+Design Buttons for practice
+</h1>
+<a href="https://getcssscan.com/css-buttons-examples">MORE BUTTONS EXAMPLES</a>
+</div>
 </body>
 
 </html>
