@@ -1,5 +1,9 @@
 # teach-css
 
+**Class 0. Html and CSS Basics**
+
+Output: [class-0.html](https://aneesburki.github.io/teach-css/class-0.html)
+
 **Class 1. Buttons plus Box Model**  
 
 Output: [button.html](https://aneesburki.github.io/teach-css/buttons.html)
