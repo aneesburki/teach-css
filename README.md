@@ -2,9 +2,13 @@
 
 **Class 0. Html and CSS Basics**
 
+Tutorial: [Class 0 - Youtube](https://youtu.be/XYYEtKWZcUw?si=cV_c09P2En6M0lLs)
+
 Output: [class-0.html](https://aneesburki.github.io/teach-css/class-0.html)
 
 **Class 1. Buttons plus Box Model**  
+
+Tutorial: [Class 1 - Youtube](https://youtu.be/9X1XhS_00BY?si=hcKgMlP3b8bN9h15⁩)
 
 Output: [button.html](https://aneesburki.github.io/teach-css/buttons.html)
 
