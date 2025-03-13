@@ -16,6 +16,8 @@ Output: [button.html](https://aneesburki.github.io/teach-css/buttons.html)
 
 Notes: [text-properties.html](https://aneesburki.github.io/teach-css/text-properties.html)
 
+Output: 
+
 **Class 3. Images and Box Elements**
 
 **Class 4. Display Property**
